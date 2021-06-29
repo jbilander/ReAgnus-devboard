@@ -426,50 +426,50 @@ AS
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 60D1FBEB
-P 3550 6200
-F 0 "J3" H 3630 6196 50  0000 L CNN
-F 1 "Conn_01x01" H 3630 6151 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3550 6200 50  0001 C CNN
-F 3 "~" H 3550 6200 50  0001 C CNN
-	1    3550 6200
+P 2000 6450
+F 0 "J3" H 2080 6446 50  0000 L CNN
+F 1 "Conn_01x01" H 2080 6401 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6450 50  0001 C CNN
+F 3 "~" H 2000 6450 50  0001 C CNN
+	1    2000 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 60D20CDD
-P 3550 6350
-F 0 "J4" H 3630 6346 50  0000 L CNN
-F 1 "Conn_01x01" H 3630 6301 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3550 6350 50  0001 C CNN
-F 3 "~" H 3550 6350 50  0001 C CNN
-	1    3550 6350
+P 2000 6600
+F 0 "J4" H 2080 6596 50  0000 L CNN
+F 1 "Conn_01x01" H 2080 6551 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6600 50  0001 C CNN
+F 3 "~" H 2000 6600 50  0001 C CNN
+	1    2000 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 60D21648
-P 3550 6500
-F 0 "J5" H 3630 6496 50  0000 L CNN
-F 1 "Conn_01x01" H 3630 6451 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3550 6500 50  0001 C CNN
-F 3 "~" H 3550 6500 50  0001 C CNN
-	1    3550 6500
+P 2000 6750
+F 0 "J5" H 2080 6746 50  0000 L CNN
+F 1 "Conn_01x01" H 2080 6701 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6750 50  0001 C CNN
+F 3 "~" H 2000 6750 50  0001 C CNN
+	1    2000 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 60D21D5E
-P 3550 6650
-F 0 "J6" H 3630 6646 50  0000 L CNN
-F 1 "Conn_01x01" H 3630 6601 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3550 6650 50  0001 C CNN
-F 3 "~" H 3550 6650 50  0001 C CNN
-	1    3550 6650
+P 2000 6900
+F 0 "J6" H 2080 6896 50  0000 L CNN
+F 1 "Conn_01x01" H 2080 6851 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6900 50  0001 C CNN
+F 3 "~" H 2000 6900 50  0001 C CNN
+	1    2000 6900
 	1    0    0    -1  
 $EndComp
 Text GLabel 8350 5700 3    50   Input ~ 0
 GND
-Text GLabel 8850 4900 2    50   Input ~ 0
+Text GLabel 9250 4900 2    50   Input ~ 0
 VCC
 Text GLabel 7050 3200 0    50   BiDi ~ 0
 DRD15
@@ -640,14 +640,113 @@ Text GLabel 7050 1250 0    50   Output ~ 0
 A19
 Wire Wire Line
 	8350 5700 8450 5700
-Text GLabel 8850 4700 2    50   Input ~ 0
+Text GLabel 9250 4700 2    50   Input ~ 0
 GND
 Text GLabel 8850 3750 2    50   Input ~ 0
 14M
 Text GLabel 8850 1550 2    50   Input ~ 0
 DRA9
-NoConn ~ 3350 6200
-NoConn ~ 3350 6350
-NoConn ~ 3350 6500
-NoConn ~ 3350 6650
+NoConn ~ 1800 6450
+NoConn ~ 1800 6600
+NoConn ~ 1800 6750
+NoConn ~ 1800 6900
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 60E5154A
+P 3450 6750
+F 0 "J1" H 3507 7067 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 3507 6976 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3500 6710 50  0001 C CNN
+F 3 "~" H 3500 6710 50  0001 C CNN
+	1    3450 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J2
+U 1 1 60E54D12
+P 2650 6650
+F 0 "J2" H 2700 6867 50  0000 C CNN
+F 1 "Conn_02x01" H 2700 6776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 2650 6650 50  0001 C CNN
+F 3 "~" H 2650 6650 50  0001 C CNN
+	1    2650 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 6650 2450 6200
+Wire Wire Line
+	2450 6200 4000 6200
+Wire Wire Line
+	4000 6200 4000 6650
+Wire Wire Line
+	4000 6650 3750 6650
+Text Label 4000 6200 0    50   ~ 0
+VIN
+Wire Wire Line
+	2950 6650 2950 7050
+Wire Wire Line
+	2950 7050 3750 7050
+Wire Wire Line
+	3750 7050 3750 6850
+Connection ~ 3750 6850
+Wire Wire Line
+	3750 6850 3750 6750
+Text GLabel 3350 7050 3    50   Input ~ 0
+GND
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 60E57F93
+P 4550 6650
+F 0 "SW1" H 4550 6935 50  0000 C CNN
+F 1 "SW_SPDT" H 4550 6844 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4550 6650 50  0001 C CNN
+F 3 "~" H 4550 6650 50  0001 C CNN
+	1    4550 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6650 4000 6650
+Connection ~ 4000 6650
+NoConn ~ 4750 6750
+Text GLabel 5100 6550 2    50   Input ~ 0
+VCC
+$Comp
+L Device:C C1
+U 1 1 60DB5D56
+P 4900 6400
+F 0 "C1" H 5015 6400 50  0000 L CNN
+F 1 "C" H 5015 6355 50  0001 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4938 6250 50  0001 C CNN
+F 3 "~" H 4900 6400 50  0001 C CNN
+	1    4900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 6550 4900 6550
+Connection ~ 4900 6550
+Wire Wire Line
+	4900 6550 5100 6550
+Text GLabel 4900 6250 1    50   Input ~ 0
+GND
+$Comp
+L Device:C_Small C2
+U 1 1 60DBB6F0
+P 9000 4800
+F 0 "C2" H 9092 4800 50  0000 L CNN
+F 1 "C_Small" H 9092 4755 50  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9000 4800 50  0001 C CNN
+F 3 "~" H 9000 4800 50  0001 C CNN
+	1    9000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4700 9000 4700
+Connection ~ 9000 4700
+Wire Wire Line
+	9000 4700 9250 4700
+Wire Wire Line
+	8850 4900 9000 4900
+Connection ~ 9000 4900
+Wire Wire Line
+	9000 4900 9250 4900
 $EndSCHEMATC
