@@ -424,10 +424,10 @@ RW
 Text GLabel 1200 5300 0    50   Output ~ 0
 AS
 $Comp
-L Connector_Generic:Conn_01x01 J3
+L Connector_Generic:Conn_01x01 J4
 U 1 1 60D1FBEB
 P 2000 6450
-F 0 "J3" H 2080 6446 50  0000 L CNN
+F 0 "J4" H 2080 6446 50  0000 L CNN
 F 1 "Conn_01x01" H 2080 6401 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6450 50  0001 C CNN
 F 3 "~" H 2000 6450 50  0001 C CNN
@@ -435,10 +435,10 @@ F 3 "~" H 2000 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J4
+L Connector_Generic:Conn_01x01 J5
 U 1 1 60D20CDD
 P 2000 6600
-F 0 "J4" H 2080 6596 50  0000 L CNN
+F 0 "J5" H 2080 6596 50  0000 L CNN
 F 1 "Conn_01x01" H 2080 6551 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6600 50  0001 C CNN
 F 3 "~" H 2000 6600 50  0001 C CNN
@@ -446,10 +446,10 @@ F 3 "~" H 2000 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J5
+L Connector_Generic:Conn_01x01 J6
 U 1 1 60D21648
 P 2000 6750
-F 0 "J5" H 2080 6746 50  0000 L CNN
+F 0 "J6" H 2080 6746 50  0000 L CNN
 F 1 "Conn_01x01" H 2080 6701 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6750 50  0001 C CNN
 F 3 "~" H 2000 6750 50  0001 C CNN
@@ -457,10 +457,10 @@ F 3 "~" H 2000 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
+L Connector_Generic:Conn_01x01 J7
 U 1 1 60D21D5E
 P 2000 6900
-F 0 "J6" H 2080 6896 50  0000 L CNN
+F 0 "J7" H 2080 6896 50  0000 L CNN
 F 1 "Conn_01x01" H 2080 6851 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6900 50  0001 C CNN
 F 3 "~" H 2000 6900 50  0001 C CNN
@@ -662,10 +662,10 @@ F 3 "~" H 3500 6710 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x01 J2
+L Connector_Generic:Conn_02x01 J3
 U 1 1 60E54D12
 P 2650 6650
-F 0 "J2" H 2700 6867 50  0000 C CNN
+F 0 "J3" H 2700 6867 50  0000 C CNN
 F 1 "Conn_02x01" H 2700 6776 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 2650 6650 50  0001 C CNN
 F 3 "~" H 2650 6650 50  0001 C CNN
@@ -685,7 +685,7 @@ VIN
 Wire Wire Line
 	2950 6650 2950 7050
 Wire Wire Line
-	2950 7050 3750 7050
+	2950 7050 3500 7050
 Wire Wire Line
 	3750 7050 3750 6850
 Connection ~ 3750 6850
@@ -705,7 +705,7 @@ F 3 "~" H 4550 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 6650 4000 6650
+	4350 6650 4150 6650
 Connection ~ 4000 6650
 NoConn ~ 4750 6750
 Text GLabel 5100 6550 2    50   Input ~ 0
@@ -749,4 +749,35 @@ Wire Wire Line
 Connection ~ 9000 4900
 Wire Wire Line
 	9000 4900 9250 4900
+$Comp
+L Connector:USB_B_Micro J2
+U 1 1 6138898E
+P 4350 7300
+F 0 "J2" V 4453 7630 50  0000 L CNN
+F 1 "USB_B_Micro" V 4362 7630 50  0000 L CNN
+F 2 "Agnus:USB_Micro-B_Unknown_5s_SMT" H 4500 7250 50  0001 C CNN
+F 3 "~" H 4500 7250 50  0001 C CNN
+	1    4350 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 7300 4750 7400
+Wire Wire Line
+	4750 7650 3500 7650
+Wire Wire Line
+	3500 7650 3500 7050
+Connection ~ 4750 7400
+Wire Wire Line
+	4750 7400 4750 7650
+Connection ~ 3500 7050
+Wire Wire Line
+	3500 7050 3750 7050
+NoConn ~ 4550 7000
+NoConn ~ 4450 7000
+NoConn ~ 4350 7000
+Wire Wire Line
+	4150 7000 4150 6650
+Connection ~ 4150 6650
+Wire Wire Line
+	4150 6650 4000 6650
 $EndSCHEMATC
