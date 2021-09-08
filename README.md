@@ -6,7 +6,7 @@ Should be compatible with the [PLCC-84-plug](https://github.com/jbilander/PLCC-8
 UNTESTED!!!
 
 ***
-REV 1A
+REV 1B
 <br /><br />
 <a href="images/ReAgnus-devboard_pic1.png">
 <img src="images/ReAgnus-devboard_pic1.png" width="230" height="350">
