@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Agnus)(type Legacy)(uri ${KIPRJMOD}/Agnus.lib)(options "")(descr ""))
-)
