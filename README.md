@@ -1,18 +1,33 @@
 # ReAgnus-devboard
-A development board for ReAgnus 8375 designed with footprint for a _Yamaichi_IC51-0844-401-1_Clamshell_THT-Socket_ <br />
+A development board for ReAgnus<br />
 
-Should be compatible with the [PLCC-84-plug](https://github.com/jbilander/PLCC-84-plug) using straight TH-pins from a 2.0 mm pin pitch header.
+Compatible with the [PLCC-84-plug](https://github.com/jbilander/PLCC-84-plug)
 
-UNTESTED!!!
+With this board you can signal tap a real Agnus chip by having a real IC in one socket and ReAgnus in the other.
 
 ***
-REV 1B
-<br /><br />
-<a href="images/ReAgnus-devboard_pic1.png">
-<img src="images/ReAgnus-devboard_pic1.png" width="230" height="350">
+
+REV 1C
+
+
+<a href="images/ReAgnus-devboard_pic1.jpg">
+<img src="images/ReAgnus-devboard_pic1.jpg" width="512" height="384">
 </a>
-<a href="images/ReAgnus-devboard_pic2.png">
-<img src="images/ReAgnus-devboard_pic2.png" width="230" height="350">
+<br />
+<a href="images/ReAgnus-devboard_pic2.jpg">
+<img src="images/ReAgnus-devboard_pic2.jpg" width="512" height="384">
+</a>
+<br />
+<a href="images/ReAgnus-devboard_pic3.jpg">
+<img src="images/ReAgnus-devboard_pic3.jpg" width="512" height="384">
+</a>
+<br />
+<a href="images/ReAgnus-devboard_pic4.jpg">
+<img src="images/ReAgnus-devboard_pic4.jpg" width="512" height="384">
+</a>
+<br />
+<a href="images/ReAgnus-devboard_pic5.jpg">
+<img src="images/ReAgnus-devboard_pic5.jpg" width="512" height="384">
 </a>
 
 ***
