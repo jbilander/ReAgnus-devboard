@@ -3,7 +3,7 @@ A development board for ReAgnus<br />
 
 Compatible with the [PLCC-84-plug](https://github.com/jbilander/PLCC-84-plug)
 
-With this board you can signal tap a real Agnus chip by having a real IC in one socket and ReAgnus in the other.
+With this board you can signal tap a real Agnus chip by having a real Agnus IC in one socket and ReAgnus in the other.
 
 ***
 
